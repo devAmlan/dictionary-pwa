@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const PORT = process.env.PORT || 3036
 const route = require('./router')
 app.use(cors({
-    origin:["http://localhost:3000"],
+    origin:["https://lerno.netlify.app"],
     methods:["GET","POST"],
     credentials:true
   }))
